@@ -1,0 +1,34 @@
+main{
+    width:50%;
+    margin:auto;
+    display:flex;
+    justify-content: center;
+    height: 80vh;
+    flex-direction:row;
+    color: black;
+}
+@media screen and (max-width:800px) {
+   body{
+    background-color: pink;
+    color: aliceblue;
+   } 
+}
+@media screen and (max-width:600px) and (min-width:200px) {
+body{
+    background-color: grey;
+    color: black;
+}
+}
+
+.all{
+    justify-content: center;
+    text-justify: center;
+background-image: url(bg-intro-destop);
+}
+form{
+    background-color: aliceblue;
+    border: 20px solid white;
+    border-radius: 5px;
+   
+}
+
